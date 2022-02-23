@@ -1,0 +1,385 @@
+/* G L O B A L */
+
+html *{
+	font-family: 'Lato' !important;
+}
+
+a, a:visited{
+	text-decoration: none;
+	color: #6A6868;
+	font-weight: 600;
+}
+
+h2, h3{
+	color: #0F5A32;
+}
+
+.hidden{
+	display: none;
+}
+
+/* C O N T A I N E R S */
+
+.container{
+	width: 100% !important;
+	display: inline-block;
+}
+
+.left-panel{
+	width: 14%;
+	height: 100%;
+
+	/* Source: https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+    background: 
+       linear-gradient(
+          rgba(28, 181, 224, 0.65), 
+          rgba(0, 0, 70, 0.65)
+    ),
+    url('../img/bgLeftPanelGrayscale.png');
+	/*background: 
+	    linear-gradient(
+	      rgba(68, 160, 142, 0.65), 
+	      rgba(9, 55, 55, 0.65)
+	    ),
+	    url('../img/bgLeftPanelGrayscale.png');*/
+	/* background: 
+	    linear-gradient(
+	      rgba(41, 128, 185, 0.65), 
+	      rgba(44, 62, 80, 0.65)
+	    ),
+	    url('../img/bgLeftPanelGrayscale.png'); */
+	/*background: 
+    linear-gradient(
+      rgba(41, 128, 185, 1), 
+      rgba(44, 62, 80, 1)
+    ); */
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+	opacity: 0.8;
+	float: left;
+	display: block;
+}
+
+.wrapper{
+	min-height:100%;
+	height:auto !important;
+	height:100%;
+	margin: 0 auto -17%;
+}
+
+.right-panel{
+	float:left;
+	width: 86%;
+	height:100%;
+	background: 
+	    linear-gradient(
+	      rgba(102, 125, 182, 0.05), 
+	      rgba(0, 130, 200, 0.05),
+	      rgba(0, 130, 200, 0.05),
+	      rgba(102, 125, 182, 0.05)
+	);
+	display: block;
+}
+
+.content{
+	height: 92%;
+	width: 100% !important;
+}
+
+.content-container{
+	background-color: rgba(255,255,255,0.70);
+	margin: 15px;
+	padding: 10px;
+	border-radius: 6px;
+	border: 1px solid #F2F2F2;
+}
+
+.content-info form{
+	min-width: 120px;
+	max-width: 100%;
+	line-height: 25px;
+}
+
+.content-info label,input{
+	display: inline-block;
+	vertical-align: top;
+	min-width: 30%;
+}
+
+.content-info textarea{
+	min-width: 50% !important;
+	min-height: 200px;
+}
+
+.login-input{
+	width: 25em; 
+	height: 34px; 
+	padding-left: 30px;
+	background: url('../img/user-icon.png') no-repeat scroll 7px 7px;
+}
+
+.content-info form, input[type='text'], input=[type='password']{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.header{
+	display: inline-block;
+	background-color: transparent;
+	height: 4%;
+	width: 100%;
+	font-size: 0.95em;
+	color: #989898;
+}
+
+#titleBar a{
+	color: #000046;
+}
+
+.footer{
+	/*background-color: #F2F2F2;*/
+	height: 4%;
+	width: 100%;
+	font-size: 0.7em;
+	color: #D9853B;
+}
+
+/* for the AmCharts */
+#visitorsDateChart{
+	width	: 800px;
+	height	: 500px;
+}
+
+/* A L I G N M E N T */
+.float-center{
+	display: table;
+    margin: 0 auto; 
+    margin-top: 10px;
+}
+
+.float-right{
+	display: inline-block;
+	float: right;
+	padding-right: 5px;
+}
+
+.float-left{
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+}
+
+.stick-bottom, .push{
+	height: 17%;
+	text-align: center;
+}
+
+label{
+  display: inline-block;
+  text-align: right;
+}
+
+/* F O N T */
+.small-font{
+	font-size: 0.7em;
+}
+
+.medium-font{
+	font-size: 0.8em;
+}
+
+.white-font{
+	color: white;
+}
+
+
+/* C O L O R */
+.heading-color{
+	color: #007E7E;
+}
+
+
+/* F O N T */
+.medium-weight{
+	font-weight: 500;
+}
+
+
+/* C H A R A C T E R  S P A C I N G */
+.charSpace-medium{
+	letter-spacing: 0.6px;
+}
+
+/* I M A G E S */
+
+.corvaLogo img{
+	width: 60%;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.image-small{
+	width: 12px;
+}
+
+/* B A C K G R O U N D */
+.bg-whiteTrans{
+	padding: 5% 10% 5% 10%;
+	background-color: rgba(255,255,255, 0.2);
+}
+
+.bg-whiteTrans_v2{
+	padding: 2% 5% 2% 5%;
+	background-color: rgba(255,255,255, 0.2);
+}
+
+/* N I P A S  I N F O  H E A D E R  M E N U */
+/* Source: http://stackoverflow.com/questions/9171699/add-a-pipe-separator-after-items-in-an-unordered-list-unless-that-item-is-the-la */
+
+.flex-list {
+	font-size: 12px;
+    position: relative;
+    margin: 1em;
+    overflow: hidden;
+}
+
+.flex-list a{
+	color: white;
+	padding: 5px 7px 5px 7px;
+	float: left;
+}
+
+.flex-list a:hover{
+	/*background-color: rgba(255,255,255,0.4);*/
+	background-color: rgba(240,64,81,0.4);
+}
+
+.flex-list ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: -1px;
+}
+.flex-list li {
+	float: left;
+	text-transform: uppercase;
+    flex-grow: 1;
+    flex-basis: auto;
+    margin: .75em 0;
+    padding: 0 1em;
+    text-align: center;
+    /* border-left: 1px solid #ccc; */
+}
+
+/* S U B M I T  B U T T O N */
+/* Source: https://tympanus.net/Development/ButtonStylesInspiration/ */
+.button {
+	height: 35px;
+	vertical-align: bottom;
+	min-width: 100px;
+	max-width: 200px;
+	display: inline-block;
+	margin: 1em;
+	padding: 1em 2em;
+	border: none;
+	background: none;
+	color: inherit;
+	vertical-align: middle;
+	position: relative;
+	z-index: 1;
+	-webkit-backface-visibility: hidden;
+	-moz-osx-font-smoothing: grayscale;
+}
+.button:focus {
+	outline: none;
+}
+.button > span {
+	vertical-align: middle;
+}
+
+.button--border-thick {
+	border: 3px solid;
+}
+
+.button--round-l {
+	border-radius: 40px;
+}
+
+.button--text-upper {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+}
+
+.button--text-thick {
+	font-weight: 600;
+}
+
+.button--winona {
+	overflow: hidden;
+	padding: 0;
+	-webkit-transition: border-color 0.3s, background-color 0.3s;
+	transition: border-color 0.3s, background-color 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--winona::after {
+	content: attr(data-text);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	color: #3f51b5;
+	-webkit-transform: translate3d(0, 25%, 0);
+	transform: translate3d(0, 25%, 0);
+}
+.button--winona > span {
+	display: block;
+}
+.button--winona.button--inverted {
+	color: #7986cb;
+}
+.button--winona.button--inverted:after {
+	color: #fff;
+}
+.button--winona::after,
+.button--winona > span {
+	padding: 1em 2em;
+	-webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+	-webkit-transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+	transition-timing-function: cubic-bezier(0.2, 1, 0.3, 1);
+}
+.button--winona:hover {
+	border-color: #0F5A32;
+	background-color: rgba(120, 180, 148, 0.1);
+}
+.button--winona.button--inverted:hover {
+	border-color: #21333C;
+	background-color: #21333C;
+}
+.button--winona:hover::after {
+	opacity: 1;
+	-webkit-transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+}
+.button--winona:hover > span {
+	opacity: 0;
+	-webkit-transform: translate3d(0, -25%, 0);
+	transform: translate3d(0, -25%, 0);
+}
+
+/* S H A D O W */
+.shadow {
+  -moz-box-shadow:    1px 1px 3px 4px #ccc;
+  -webkit-box-shadow: 1px 1px 3px 4px #ccc;
+  box-shadow:         1px 1px 3px 0px #ccc;
+}
+
+

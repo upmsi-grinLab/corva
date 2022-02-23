@@ -1,0 +1,55 @@
+.left-panel{
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
+	height: 1060px;
+
+	/* Source: https://css-tricks.com/tinted-images-multiple-backgrounds/ */
+    background: 
+       linear-gradient(
+          rgba(28, 181, 224, 0.65), 
+          rgba(0, 0, 70, 0.65)
+    ),
+    url('../img/bgLeftPanelGrayscale.png');
+
+    background-size: cover;                     
+    background-repeat: no-repeat;
+    background-position: center center;
+	opacity: 0.8;
+}
+
+.corvaLogo img{
+	width: 80%;
+	display: block;
+	margin: auto;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+/* C H A R A C T E R  S P A C I N G */
+.charSpace-medium{
+	letter-spacing: 0.6px;
+}
+
+/* B A C K G R O U N D */
+.bg-whiteTrans{
+	padding: 1% 2% 2% 1%;
+	background-color: rgba(255,255,255, 0.2);
+}
+
+.bg-whiteTrans_v2{
+	padding: 2% 5% 2% 5%;
+	background-color: rgba(255,255,255, 0.2);
+}
+
+/* F O N T */
+.small-font{
+	font-size: 0.7em;
+}
+
+.medium-font{
+	font-size: 0.92em;
+}
+
+.white-font{
+	color: white;
+}

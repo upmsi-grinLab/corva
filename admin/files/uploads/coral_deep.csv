@@ -1,0 +1,3 @@
+loc_id,survey_date,depth,temperature,live_coral,sand_rubble,dead_coral,other,species_richness,remarks
+6,2017,35.5,0,21.86,42.1,48.82,0.8,"Porites sp.Pachyseris sp.Turbinaria sp. Acropora sp.,Porites sp.Fungid coral,Lobophyllia sp.,Mycedium sp.",
+34,2017,35.1,0,2.05,69.6,16.5,3.3,"Acropora sp.,Porites sp.Fungid coral,Lobophyllia sp.Turbinaria sp.Seriatopora sp.Porites sp.,Mycedium sp.",

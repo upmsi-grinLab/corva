@@ -1,0 +1,35 @@
+loc_id;region_id;province_id;municipality;nipas_name;area;legal_basis;year_established;coral_area;mangrove_area;seagrass_area;lon;lat;filename
+1;1;1;Agoo, Sto. Tomas, & Rosario;Agoo-Damortis Protected Landscape and Seascape;10648.94;277;2000;0;47.77;0;120.32;16.290001;agoo-damortis.pdf
+2;1;2;Alaminos;Hundred Islands National Park;1844;667;1941;0;11.59;0;120.039291;16.210739;hundred_islands.pdf
+3;2;3;;Batanes Protected Landscape and Seascape;213578;335;1994;1360.5;0;132.46;121.877502;20.693224;batanes.pdf
+4;2;4;Santa Ana;Palaui Island Marine Reserve;7415.48;447;1994;208.1;102.39;0;122.129997;18.549999;palaui.pdf
+5;2;4;Penablanca;Penablanca Protected Landscape and Seascape;118781.58;484;2003;44.5;0;0;122.049919;17.680475;penablanca.pdf
+6;3;5;Masinloc;Masinloc and Oyon Bay Marine Reserve;7568;231;1993;1029.4;89.54;0;119.919998;15.52;masinloc_oyon.pdf
+7;4;6;Sablayan;Apo Reef Natural Park;15792;868;1996;339.52;6.66;0;120.480003;12.67;apo_reef.pdf
+8;4;7;El Nido (Bacuit);El Nido Managed Resource Protected Area;89134.76;32;1998;2,711.11;3,523.14;251.09;119.377831;11.174592;el_nido.pdf
+9;4;7;Taytay & San Vicente;Malampaya Sound Protected Landscape and Seascape;200115;342;2000;460.3;12,032.93;0;119.330002;10.83;malampaya.pdf
+10;4;7;Cagayancillo;Tubbataha Reefs Natural Park;96828;1126;2006;0;0;0;119.871262;8.880995;tubbataha.pdf
+11;5;8;Garchitorena;Malabungot Protected Landscape and Seascape;244.72;319;2000;20.9;0;0;123.588631;13.924753;malabungot.pdf
+12;6;9;Nueva Valencia;Taklong Island National Marine Reserve;1143.45;525;1990;101;12.52;0;122.510002;10.41;taklong.pdf
+13;15;10;Sagay;Sagay Marine Reserve;28300;592;1995;5,959.11;7,582.52;1,041.16;123.48806;10.922974;sagay.pdf
+14;7;11;;Tanon Strait Protected Seacape;450;1234;1998;16,588.88;1,815.13;0;123.509232;10.404411;talon.pdf
+15;15;12;Zamboanguita;Apo Island Protected Landscape and Seascape;691.45;438;1994;31.23;0;0;123.270531;9.079472;apo_is.pdf
+16;7;12;Panglao;Panglao Island Protected Seascape;385.67;426;2003;693.7;108.85;0;123.749672;9.570383;panglao.pdf
+17;7;12;Alburquerque, Loay, & Loboc;Alburquerque-Loay-Loboc Protected Landscape and Seascape;1164.16;293;2000;155.6;317.61;0;124.009109;9.599783;alburquerque.pdf
+18;7;13;Talibon;Talibon Group of Islands Protected Landscape and Seascape;6455.87;131;1999;845.2;224.07;0;124.323738;10.21993;talibon.pdf
+19;8;14;Lavezares, Rosario, San Jose, Biri and neighboring islands such as Bani, San Juan, Gilbert, Cabungon;Biri-Larosa Protected Landscape and Seascape;33492;291;2000;3,717.10;3,085.02;310.63;124.412064;12.600566;biri_larosa.pdf
+20;8;15;Inopacan, Hindang, and neighboring islands of Digyo, Apid Mahaba and Himukilan;Cuatro Islas Protected Landscape and Seascape;12;270;2000;0;0;0;124.659683;10.516592;cuatro_islas.pdf
+21;8;16;Guiuan and neighboring Island of Manicani, Candulo, Suluan, Tubabao,Calicoan and Homonhon;Guiuan Protected Landscape and Seascape;60448;469;1994;2,410.24;57.71;260.55;125.803574;10.884019;guiuan.pdf
+22;9;17;Dapitan City;Selinog Island Protected Landscape and Seascape;960.27;276;2000;101.97;0;0;123.416382;8.854861;selinog.pdf
+23;9;17;Dapitan City;Aliguay Island Protected Landscape and Seascape;1187.51;106;1999;96.66;0;3.93;123.220764;8.743832;aliguay.pdf
+24;9;17;Labason;Murcielagos Island Protected Landscape and Seascape;100;281;2000;201.24;0;0;122.442497;8.118303;murcielagos.pdf
+25;16;18;Turtle Islands;Turtle Islands Wildlife Sanctuary;242967;171;1999;0;0;0;118.298225;6.220129;turtle_islands.pdf
+26;9;19;Zamboanga City;Great and Little Sta. Cruz Islands Protected Landscape and Seascape;1877;271;2000;418.14;110.4;0;122.050003;6.87;great_little_stacruz.pdf
+27;9;19;Malangas, Buug, Kumalarang, Lapuyan,Margosatubig, & Vencenso Sagun;Dumanquillas Bay Protected Landscape and Seascape;25948;158;1999;0;2,503.44;0;123.089996;7.63;dumanquilas.pdf
+28;10;20;Initao and Libertad;Initao-Libertad Protected Landscape and Seascape;1300.78;260;2002;0;0;0;124.321312;8.54451;initao_libertad.pdf
+29;10;21;Baliangao;Baliangao Protected Landscape and Seascape;295;418;2000;86.85;0;0;123.639229;8.638547;baliangao.pdf
+30;11;30;Mabini;Mabini Protected Landscape and Seascape;6106;316;2000;0;141.21;0;125.8228;7.295625;mabini.pdf
+31;11;23;Mati;Pujada Bay Protected Landscape and Seascape ;21200;431;1994;977.46;137.57;0;126.25;6.85;pujada.pdf
+32;12;24;Kiamba, Maasim, Maitum;Saranggani Bay Protected Seascape ;215950;756;1996;0;93.31;0;125.193687;5.967893;saranggani.pdf
+33;13;25;Siargao;Siargao Island Protected Landscape  and Seascape;278914.13;902;1996;11,289.41;13,569.66;638.61;126.041847;9.848431;siargao.pdf
+34;4;6;;Verde Island Passage;1400000;(no data);0;21,435.13;835.56;1,323.26;120.916702;13.5667;NULL

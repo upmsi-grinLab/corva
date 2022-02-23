@@ -1,0 +1,151 @@
+/**
+ *  User defined styles for the CoRVA website
+ *  style.css
+ */
+
+
+/*
+ *  Global Variables
+ */
+
+/* Import the LATO font from Google */
+
+    @import url('https://fonts.googleapis.com/css?family=Lato');
+
+/* Body Styles */
+
+    body *{
+    	font-family: 'Lato';
+    }
+
+
+/* Font styles as classes */
+
+    /* Font weight */
+    .fontWeight-heavy{
+    	font-weight: 600;
+    }
+
+    .fontWeight-medium{
+      font-weight: 400;
+    }
+
+    /* Font size */
+    .fontSize-small{
+    	font-size: 0.70em;
+    }
+
+    .fontSize-medium{
+    	font-size: 0.85em;
+    }
+
+    .fontSize-large{
+    	font-size: 1.2em;
+    }
+
+/* Image styles */
+
+    /* Reduce image opacity upon hover action */
+    /* .project_images:hover{
+    	opacity: 0.7;
+    } */
+
+    /* Modal Content (image) */
+    .modal-content {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+    }
+
+    /* Caption of Modal Image */
+    #caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 700px;
+        text-align: center;
+        color: #ccc;
+        padding: 10px 0;
+        height: 150px;
+    }
+
+    /* Add animation for the modal content and caption */
+    .modal-content, #caption {    
+        -webkit-animation-name: zoom;
+        -webkit-animation-duration: 0.6s;
+        animation-name: zoom;
+        animation-duration: 0.6s;
+    }
+
+    @-webkit-keyframes zoom {
+        from {-webkit-transform:scale(0)} 
+        to {-webkit-transform:scale(1)}
+    }
+
+    @keyframes zoom {
+        from {transform:scale(0)} 
+        to {transform:scale(1)}
+    }
+
+/* The Close Button */
+
+    /* Style for the close button class */
+    .close {
+        position: absolute;
+        top: 15px;
+        right: 35px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
+
+    /* Close button hover and focus */
+    .close:hover,
+    .close:focus {
+        color: #bbb;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+ /* IntroJS overwrite css */
+    .introjs-tooltip {
+        display: block;
+        padding: 0px 0px 10px 0px;
+        background-color: rgba(12, 12, 12, 0.5);
+        border-top: 0px solid #06f;
+        border-radius: 10px;
+        margin-left: 0 !important;
+        box-shadow: 0px 0px 25px 5px rgba(68, 157, 68, 0.5);
+        max-width: 50%;
+        width: 50%;
+        left: 25% !important;
+        bottom: 50% !important;
+        font-family: "Lato",sans-serif;
+        font-size: 20px;
+        line-height: 1.428571429;
+        color: #333;
+        position: fixed;
+        top: initial !important;
+        right: 0 !Important;
+        width: auto !important;
+    }
+    .introjs-tooltiptext {
+        color: white;
+        letter-spacing: .5px;
+        margin: 10px auto 0px auto;
+        text-align: center;
+        padding: 5px 0px;
+        width: 80%;
+        word-spacing: 1px;
+    }
+    .introjs-tooltipbuttons {
+        position: relative;
+        right: 0px;
+        text-align: center;     
+    }
+     
+    .introjs-button {
+        font: 14px/normal sans-serif !important;
+    }   
